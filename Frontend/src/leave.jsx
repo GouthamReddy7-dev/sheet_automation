@@ -67,8 +67,8 @@ function Leave(){
         <h1 className="text-2xl font-extrabold font-mono text-center">Leave Form</h1>
         <h1 className="mt-2 ml-6 font-extrabold ">Name</h1>
         <input type="text" placeholder=" Name" className={`w-90 h-8 border-2 rounded-lg mt-2 ml-6 ${errors.comm_name?"border-2 border-red-600":"border-gray-500"}`} onChange={(e)=>setformdata((priv)=>({...priv,comm_name:e.target.value}))}/>
-        <h1 className="mt-2 ml-6 font-extrabold ">Flat no</h1>
-        <input type="text" placeholder=" Flat no" className={`w-90 h-8 border-2 rounded-lg mt-2 ml-6 ${errors.fno?"border-2 border-red-600":"border-gray-500"}`} onChange={(e)=>setformdata((priv)=>({...priv,fno:e.target.value}))} />
+        <h1 className="mt-2 ml-6 font-extrabold ">Type</h1>
+        <input type="text" placeholder=" Leave Type" className={`w-90 h-8 border-2 rounded-lg mt-2 ml-6 ${errors.fno?"border-2 border-red-600":"border-gray-500"}`} onChange={(e)=>setformdata((priv)=>({...priv,fno:e.target.value}))} />
         <br />
         <h1 className="mt-2 ml-6 font-extrabold ">Date</h1>
         <input type="date" className={`mt-2 ml-6 cursor-pointer border-2 border-gray-500 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${errors.date?"border-2 border-red-600":"border-gray-500"}`} onChange={(e)=>setformdata((priv)=>({...priv,date:e.target.value}))}/>
