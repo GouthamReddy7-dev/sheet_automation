@@ -14,7 +14,7 @@ headers=values[1]
 print(headers)
 #print(values)
 
-name="Ashok Sadhu"
+name="Emp_Name"
 date="29-Jul-26"
 leave_type="PL"
 #list(map(lambda x:x.lower(),headers))
